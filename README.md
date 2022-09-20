@@ -1,4 +1,6 @@
-# ApiPerformanceBenchmark
+# ApiPerformance
+
+## BenchmarkDotNet
 
 https://benchmarkdotnet.org/articles/overview.html
 
@@ -29,3 +31,14 @@ Run time: 00:00:10 (10.98 sec), executed benchmarks: 1
 
 Global total time: 00:00:14 (14.32 sec), executed benchmarks: 1
 // * Artifacts cleanup *
+
+
+## Artillery:
+
+https://www.artillery.io/
+
+`\ApiPerformanceBenchmark\ApiToCheckPerformance> artillery run --insecure testing-scenarios.yml`
+
+![Imagen](https://github.com/brunotarghetta/ApiPerformanceBenchmark/blob/main/ApiToCheckPerformance/screenshot.result.png)
+
+
