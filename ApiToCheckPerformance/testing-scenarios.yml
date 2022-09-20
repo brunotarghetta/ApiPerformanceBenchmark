@@ -1,0 +1,10 @@
+config:
+    target: "https://localhost:7282"   
+    phases:
+      - duration: 10
+        arrivalRate: 2    
+scenarios:
+  - name: "Get Weather"
+    flow:
+    - get:
+        url: "/WeatherForecast"        
